@@ -13,7 +13,7 @@ import com.example.cookbook.model.recipe
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun RecipeCard(recipe: recipe, onClick : () -> Unit) {
+fun RecipeCard(recipe: recipe, onClick : () -> Unit, ) {
     Card(
         modifier = Modifier
             .padding(horizontal = 16.dp, vertical = 10.dp)

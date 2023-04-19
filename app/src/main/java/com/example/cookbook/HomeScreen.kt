@@ -51,7 +51,7 @@ private fun HomeAppBar(onAboutClick: () -> Unit) {
         Text("Latest Articles", style = MaterialTheme.typography.h6)
         Spacer(modifier = Modifier.weight(1f))
         TextButton(onClick = onAboutClick) {
-            Text("About")
+            Text("Sample Video")
         }
     }
 }
